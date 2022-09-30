@@ -2,26 +2,24 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow*
+let str = `SCRIPT
 
-Pengen mentahan nya ?
-Nih ada santai bro....
-https://github.com/ImYanXiao/Elaina-MultiDevice
+INI
 
-Mau Yang No Error Script Bot nya, Gas Cek Video YT :
-https://youtu.be/Pgv_GuQTPyo
+DI
 
-Pengen yang udah di recode oleh owner?
-Script bot ini dijual bila kalian mau bisa chat owner
+JUAL
 
-wa.me/6282127487538`
+CHAT
+
+wa.me/6289510598381`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+conn.sendButtonDoc(m.chat, str, wm,'Makaciw','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://Instagram.com/karfuanyogich",
     mediaType: "VIDEO",
     description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    title: '© 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
