@@ -47,7 +47,7 @@ global.psaweria = 'https://saweria.co/yogzkyz'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6289503281086'
-global.nomorown = '689510598381'
+global.nomorown = '6289510598381'
 global.namebot = '𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛'
 global.nameown = 'FlawZX'
 
@@ -58,7 +58,7 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['689510598381', 'FlawZX', true],
+  ['6289510598381', 'FlawZX', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
