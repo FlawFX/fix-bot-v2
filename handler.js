@@ -699,10 +699,10 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow",
+    mediaUrl: "https://youtube.com/channel/UCAssIRzQX_Ohi1I8eWzcRxQ",
     mediaType: 2, 
-    description: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow", 
-    title: 'WH-MODS-BOT-V1-MultiDevice',
+    description: "https://youtube.com/channel/UCAssIRzQX_Ohi1I8eWzcRxQ", 
+    title: '© 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
@@ -718,10 +718,10 @@ export async function participantsUpdate({ id, participants, action }) {
             }
             break
         case 'promote':
-            text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
+            text = (chat.sPromote || this.spromote || conn.spromote || '@user ```Telah menjadi Atmin```')
         case 'demote':
             if (!text)
-                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
+                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```Telah di hapus dari Atmint```')
             text = text.replace('@user', '@' + participants[0].split('@')[0])
             if (chat.detect)
                 this.sendMessage(id, { text, mentions: this.parseMention(text) })
