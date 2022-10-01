@@ -266,7 +266,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	]
   },
 ]
-
+let vn = './mp3/flawz.mp3'
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
@@ -349,7 +349,7 @@ const listMessage = {
       minute: 'numeric',
       second: 'numeric'
     })
-    let vn = './mp3/flawz.mp3'
+
     let _uptime = process.uptime() * 1000
     let _muptime
     if (process.send) {
