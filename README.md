@@ -1,6 +1,6 @@
 
 ## CATATAN
-Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu kakak !
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
     <img src="https://i.ibb.co/XZrK6yQ/transformers.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
