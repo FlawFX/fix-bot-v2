@@ -349,6 +349,7 @@ const listMessage = {
       minute: 'numeric',
       second: 'numeric'
     })
+    let vn = './media/gatau.mp3'
     let _uptime = process.uptime() * 1000
     let _muptime
     if (process.send) {
