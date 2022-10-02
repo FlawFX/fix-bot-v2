@@ -36,7 +36,7 @@ Contoh: .menfess 628xxxxxxxxxx|Mau jadi pcrku ga?`
 💌 Isi Pesan : ${pesan}
 ⬡──⬡─────────⬡──⬡`
 
-    conn.reply(m.chat, logs, m)
+   // conn.reply(m.chat, logs, m)
 }
 handler.help = ['menfess nomor|pesan']
 handler.tags = ['nocategory']
