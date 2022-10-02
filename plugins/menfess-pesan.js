@@ -7,7 +7,7 @@ let [number, pesan] = text.split `|`
     
     let user = global.db.data.users[m.sender]
 
-    // let korban = `${number}`
+     let korban = `${number}`
     var nomor = m.sender
     let spam1 = `Hi Saya Bot Ada Yang Kirim Pesan Untukmu
 Seseorang Temanmu
@@ -28,7 +28,7 @@ Kamu bisa menggunakan Bot ini
 Contoh Penggunaan: .menfess nomor|pesan untuknya
 Contoh: .menfess 628xxxxxxxxxx|Mau jadi pcrku ga?`
 
-   // conn.reply(korban + '@s.whatsapp.net', spam1, m)
+    conn.reply(korban + '@s.whatsapp.net', spam1, m)
 
     let logs = `Sukses Mengirim Pesan
 👥 Dari : wa.me/${nomor.split("@s.whatsapp.net")[0]}
